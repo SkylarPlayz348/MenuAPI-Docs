@@ -1,0 +1,37 @@
+baseurl = "https://docs.vespura.com/mapi"
+languageCode = "en-us"
+title = "MenuAPI Documentation"
+theme = "hugo-theme-learn"
+metadataformat = "yaml"
+
+[params]
+  description = "MenuAPI Documentation"
+  author = "Vespura"
+  showVisitedLinks = true
+  themeVariant = "green"
+  editURL = "https://github.com/tomgrobbe/MenuAPI-docs"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "MenuAPI Documentation"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = '<i style="color: #2196f3;" class="fab fa-github"></i>GitHub repository'
+url = "https://github.com/TomGrobbe/MenuAPI"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = '<i style="color: #ffa76d;" class="fab fa-discourse"></i>Forum topic'
+url = "https://forum.fivem.net/t/menuapi/204992?u=vespura"
+weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = '<i style="color: #2196f3;" class="fas fa-globe"></i>My main website'
+url = "https://vespura.com/"
+weight = 30
+
