@@ -3,13 +3,14 @@ languageCode = "en-us"
 title = "MenuAPI Documentation"
 theme = "hugo-theme-learn"
 metadataformat = "yaml"
+enableGitInfo = true
 
 [params]
   description = "MenuAPI Documentation"
   author = "Vespura"
   showVisitedLinks = true
   themeVariant = "green"
-  editURL = "https://github.com/tomgrobbe/MenuAPI-docs"
+  editURL = "https://github.com/TomGrobbe/MenuAPI-Docs/tree/master/content/"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
